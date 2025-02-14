@@ -1,12 +1,21 @@
-        <!DOCTYPE html>
-        <html lang="zh-CN">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>支付宝余额装逼生成器</title >
-        </head>
-        <body>
-            <h1>支付宝余额装逼生成器</h1>
-            <p>敬请期待，功能开发中...</p>
-        </body >
-        </html >
+<!DOCTYPE html>
+<html>
+<head>
+  <title>支付宝余额装逼</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>支付宝余额装逼</h1>
+
+  <form id="balanceForm">
+    <label for="alipayAccount">支付宝账号:</label>
+    <input type="text" id="alipayAccount" name="alipayAccount" required><br><br>
+
+    <button type="submit">生成截图</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="../script.js"></script>
+</body>
+</html>
