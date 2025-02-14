@@ -1,144 +1,25 @@
-/* 全局基础样式 */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    color: #333;
-    line-height: 1.6;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* Header 样式 */
-header {
-    background-color: #0073e6;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
+nav li {
+  display: inline-block;
+  margin-right: 10px;
 }
 
-header .logo h1 {
-    margin: 0;
-    font-size: 24px;
+nav a {
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+nav a:hover {
+  background-color: #3e8e41;
 }
 
-header nav ul li {
-    margin-left: 20px;
-    position: relative; /* 为下拉菜单定位 */
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-header nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-/* 下拉菜单样式 */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #f9f9f9;
-    min-width: 180px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 10;
-    list-style: none;
-    padding: 0;
-    margin-top: 5px;
-    border-radius: 5px;
-}
-
-.dropdown-content li {
-    border-bottom: 1px solid #eee;
-}
-
-.dropdown-content li:last-child {
-    border-bottom: none;
-}
-
-.dropdown-content li a {
-    color: #333;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content li a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Main 主体样式 */
 main {
-    padding: 20px;
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-.tool-intro, .tool-links, .disclaimer {
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-.tool-intro h2, .tool-links h3 {
-    color: #0073e6;
-}
-
-.tool-links ul {
-    list-style: none;
-    padding: 0;
-}
-
-.tool-links ul li {
-    margin-bottom: 10px;
-}
-
-.tool-links ul li a {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #e0f7fa;
-    color: #00796b;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.tool-links ul li a:hover {
-    background-color: #b2ebf2;
-}
-
-.disclaimer {
-    background-color: #ffe0b2;
-    color: #ff6f00;
-}
-
-/* Footer 底部样式 */
-footer {
-    background-color: #e0e0e0;
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-    color: #757575;
-    border-top: 1px solid #ddd;
+  padding: 20px;
 }
